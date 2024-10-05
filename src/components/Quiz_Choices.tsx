@@ -8,20 +8,25 @@ interface Choice {
 
 interface QuizChoicesProps {
   choices: Choice[];  // Array of Choice objects
-  handleChoiceClick: (popup: string) => void;  // Function that takes a popup value
+  handleChoiceClick: (choiceIndex: number) => void;  // Function that takes the index of the selected choice
+  selectedAnswer: number | null;  // Track the selected answer to highlight it
 }
 
-const Quiz_Choices: React.FC<QuizChoicesProps> = ({ choices, handleChoiceClick }) => {
+const Quiz_Choices: React.FC<QuizChoicesProps> = ({ choices, handleChoiceClick, selectedAnswer }) => {
   return (
     <div>
       <h3>Choose one:</h3>
       {choices.map((choice, index) => (
         <button
           key={index}
-          onClick={() => handleChoiceClick(choice.popup)}  // Pass popup value to parent function
-          style={{ display: 'block', margin: '10px' }}
+          onClick={() => handleChoiceClick(index)}  // Pass the index of the clicked choice to the parent
+          style={{
+            display: 'block',
+            margin: '10px',
+            backgroundColor: selectedAnswer === index ? "lightblue" : "white",  // Highlight selected answer
+          }}
         >
-          {choice.value} 
+          {choice.value}
         </button>
       ))}
     </div>

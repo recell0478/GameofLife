@@ -16,8 +16,6 @@ export const QuestionList = [
         {value: "I'll save 70% and spend 30%", popup: "4"}
     ]
     }, 
-
-   
 ]
 
 

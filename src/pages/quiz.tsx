@@ -34,29 +34,30 @@ const Quiz = () => {
 
 
  return (
-   console.log(currentQuestionId),
-   console.log(QuestionList),
-   console.log(currentQuestion),
-   <div>
-     {showScore ? (
-       <div>
-         <h2>Your score is {score}</h2>
-       </div>
-     ) : (
-       <div>
-         {currentQuestion ? (
-           <>
-             <h2>{currentQuestion.question}</h2>
-             <Quiz_Choices
-               choices={currentQuestion.choices}
-               handleChoiceClick={handleChoiceClick}
-             />
-           </>
-         ) : (
-           <h2>Loading question...</h2>
-         )}
-       </div>
-     )}
+   <div className="flex items-center justify-center h-screen">
+    <div className="w-full max-w-xl m-auto text-center">
+      {showScore ? (
+        <div>
+          <h2>Your score is {score}</h2>
+        </div>
+      ) : (
+        <div>
+          {currentQuestion ? (
+            <>
+              <div>
+                <h2 className="text-center font-merriweather mb-10 mx-5 md:mx-0 text-xl" >{currentQuestion.question}</h2>
+                <Quiz_Choices
+                  choices={currentQuestion.choices}
+                  handleChoiceClick={handleChoiceClick}
+                />
+              </div>
+            </>
+          ) : (
+            <h2>Loading question...</h2>
+          )}
+        </div>
+      )}
+    </div>
    </div>
  );
 };

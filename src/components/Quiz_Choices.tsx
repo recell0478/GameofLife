@@ -1,16 +1,27 @@
 import React from "react";
 
-const Quiz_Choices = ({ choices, handleChoiceClick }) => {
+// Define types for the props
+interface Choice {
+  value: string;
+  popup: string;
+}
+
+interface QuizChoicesProps {
+  choices: Choice[];  // Array of Choice objects
+  handleChoiceClick: (popup: string) => void;  // Function that takes a popup value
+}
+
+const Quiz_Choices: React.FC<QuizChoicesProps> = ({ choices, handleChoiceClick }) => {
   return (
     <div>
       <h3>Choose one:</h3>
       {choices.map((choice, index) => (
         <button
           key={index}
-          onClick={() => handleChoiceClick(choice.popup)}
+          onClick={() => handleChoiceClick(choice.popup)}  // Pass popup value to parent function
           style={{ display: 'block', margin: '10px' }}
         >
-          {choice.value}
+          {choice.value}  // Display the text for the choice
         </button>
       ))}
     </div>
@@ -18,5 +29,6 @@ const Quiz_Choices = ({ choices, handleChoiceClick }) => {
 };
 
 export default Quiz_Choices;
+
 
 

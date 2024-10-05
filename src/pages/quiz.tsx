@@ -1,17 +1,18 @@
 import React, { useState } from "react";
-import {QuestionList} from "./src/utils/testQuestions.tsx";
+import {QuestionList} from "../utils/testQuestions";
+import Quiz_Choices from "../Components/Quiz_Choices";
 
 const Quiz = () => {
-  const [currentQuestionId, setCurrentQuestionId] = useState(1); // Start with question ID 1
+  const [currentQuestionId, setCurrentQuestionId] = useState(0); // Start with question ID 1
   const [score, setScore] = useState(0); // Tracks the score
   const [showScore, setShowScore] = useState(false); // Whether to show score at the end of the quiz
 
   // Function to get the question by ID
-  const getQuestionById = (id) => {
+  const getQuestionById = (id: number) => {
     return QuestionList.find((question) => question.id === id);
-  };
+  };  
 
-  const handleChoiceClick = (popup) => {
+  const handleChoiceClick = (popup: string) => {
     // For now, we just increment the score based on popup value (for example purposes)
     setScore(score + parseInt(popup));
 
@@ -27,6 +28,9 @@ const Quiz = () => {
   const currentQuestion = getQuestionById(currentQuestionId);
 
   return (
+    console.log(currentQuestionId),
+    console.log(QuestionList),
+    console.log(currentQuestion),
     <div>
       {showScore ? (
         <div>

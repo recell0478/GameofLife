@@ -1,9 +1,9 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-
+1
 export const QuestionList = [ 
     {
-    id: 1,
+    id: 0,
     question:"[Name] it's the start of a new year. You want to do it all: balance work, school, and friends all without crumbling down. You finally got your first job at Dunkin! What do you plan to do with your first check?",
     type: "multiple-choice",
     choices: [

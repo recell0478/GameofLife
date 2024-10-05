@@ -21,7 +21,7 @@ const Quiz_Choices: React.FC<QuizChoicesProps> = ({ choices, handleChoiceClick }
           onClick={() => handleChoiceClick(choice.popup)}  // Pass popup value to parent function
           style={{ display: 'block', margin: '10px' }}
         >
-          {choice.value}  // Display the text for the choice
+          {choice.value} 
         </button>
       ))}
     </div>

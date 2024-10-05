@@ -3,7 +3,7 @@ import {QuestionList} from "../utils/testQuestions";
 import Quiz_Choices from "../Components/Quiz_Choices";
 
 const Quiz = () => {
-  const [currentQuestionId, setCurrentQuestionId] = useState(0); // Start with question ID 1
+  const [currentQuestionId, setCurrentQuestionId] = useState(1); // Start with question ID 1
   const [score, setScore] = useState(0); // Tracks the score
   const [showScore, setShowScore] = useState(false); // Whether to show score at the end of the quiz
 

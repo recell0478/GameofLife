@@ -5,8 +5,14 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        poppins: ["Montserrat", "sans-serif"],
+        merriweather: ["Merriweather", "sans-serif"],
+      },
+    },
   },
   plugins: [],
 }
+
 

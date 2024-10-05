@@ -1,7 +1,7 @@
 const Landing = () => {
   return (
     <>
-      <h1 className="text-3xl font-bold underline">This is our landing page!</h1>
+      <h1 className="font-merriweather">This is our landing page!</h1>
     </>
   );
 };

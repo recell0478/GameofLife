@@ -7,8 +7,8 @@ interface PointProps {
 
 const Point: React.FC<PointProps> = ({ score }) => {
   return (
-    <div style={{ marginBottom: "20px" }}>
-      <h3>Points: {score}</h3>
+    <div className="mb-10">
+      <h3 className="font-poppins font-bold">Points: {score}</h3>
     </div>
   );
 };

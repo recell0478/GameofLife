@@ -15,7 +15,7 @@ const Ending = () => {
             <img
                 src="src/assets/life.png" // Ensure the path is correct
                 alt="image"
-                className="md:w-4/5 lg:w-full h-auto" // Adjusted width to make the image larger
+                className="md:w-4/5 lg:w-[50%] h-auto" // Adjusted width to make the image larger
               />
           </div>
 

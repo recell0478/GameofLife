@@ -12,7 +12,7 @@ const Landing = () => {
             <img
               src="src/assets/life.png" // Ensure the path is correct
               alt="image"
-              className="md:w-4/5 lg:w-full h-auto" // Adjusted width to make the image larger
+              className="md:w-4/5 lg:w-[50%] h-auto" // Adjusted width to make the image larger
             />
           </div>
 
@@ -23,9 +23,17 @@ const Landing = () => {
               <Link to="/resources" className="bg-[#115aad] flex rounded-lg py-3 px-8 mx-4 text-[#ffffff] font-poppins font-bold text-center items-center justify-center text-lg md:text-xl lg:text-2xl transform transition-transform duration-200 hover:scale-105 cursor-pointer">Resources</Link>
             </div>
           </div>
+
+          <div className="mt-10">
+            <div className="max-w-3xl text-center flex flex-col items-center justify-center m-auto font-poppins font-bold">
+              <p>
+                The Game of Life enhances financial literacy through an engaging, gamified experience. Test your knowledge with interactive quizzes and earn 4 points for every correct answer. Click to play and start mastering personal finance while having fun!
+              </p>
+            </div>
+          </div>
         </div>
       </div>
-      <footer className="mt-[] w-full bg-[#115aad] h-[8rem] flex items-center justify-center"></footer>
+      <footer className="w-full bg-[#115aad] h-[8rem] flex items-center justify-center"></footer>
     </>
   );
 };

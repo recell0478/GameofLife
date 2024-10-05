@@ -8,7 +8,7 @@ const Landing = () => {
           <h1 className="font-merriweather text-3xl  md:text-4xl lg:text-8xl text-center mx-5 md:mx-0">
             Game of{" "}
           </h1>
-          <div className="flex justify-center mt-8 md:mt-10 lg:mt-12">
+          <div className="flex justify-center mt-8 md:mt-10 lg:mt-12 mb-[30px]">
             <img
               src="src/assets/life.png" // Ensure the path is correct
               alt="image"
@@ -18,7 +18,7 @@ const Landing = () => {
           <div className="flex items-center justify-center m-auto">
             <Link
               to="/quiz"
-              className="bg-[#115aad] rounded-lg py-5 px-10 text-[#ffffff] font-poppins text-center text-xl md:text-2xl lg:text-3xl" // Adjusted text size
+              className="bg-[#115aad] rounded-lg py-5 px-10 text-[#ffffff] font-poppins font-bold text-center text-xl md:text-2xl lg:text-3xl" // Adjusted text size
             >
               Take a quiz to learn about financial literacy
             </Link>

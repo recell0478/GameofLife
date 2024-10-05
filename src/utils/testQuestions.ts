@@ -77,7 +77,7 @@ export const QuestionList = [
         {value: "500", popup: "yes"},
         {value: "1,000", popup: "That's a bit high! Remember, you only pay the deductible amount."},
         {value: "1,500", popup: " Not quite! The deductible isn't the subtracted amount"},
-        {value: "2,000", popup: "There wass no change! Account for deductible"}
+        {value: "2,000", popup: "There was no change! Account for deductible"}
         ],
     answer: [0]
         },       
@@ -101,9 +101,9 @@ export const QuestionList = [
     type: "multiple-choice",
     choices: [
         {value: "Review and prioritize your monthly expenses to identify areas where you can cut back.", popup: "yes!"},
-        {value: "Continue spending without changing your budget, it will help the economy and stop inflation", popup: "Sadly this is not how inflation works . Spending without consideration can actually worsen the problem!"},
+        {value: "Continue spending without changing your budget, it will help the economy and stop inflation", popup: "Sadly this is not how inflation works. Spending without consideration can actually worsen the problem!"},
         {value: "Look for discounts, coupons, or sales to help save money on essential purchases.", popup: "yes!"},
-        {value: " Consider finding a part-time job or side gig to supplement your income.", popup: "Difficult in this market but definitly an option"}
+        {value: " Consider finding a part-time job or side gig to supplement your income.", popup: "Difficult in this market but definitely an option"}
         ],
     answer: [0,2,3]
         },   
@@ -115,8 +115,8 @@ export const QuestionList = [
     choices: [
         {value: "Taxes are a type of voluntary fee that you can choose to pay or ignore.", popup: "Voluntary? ... "},
         {value: " Everyone pays taxes, but the amount you pay depends on how much money you earn.", popup: "Yes! We all pay taxes!!!"},
-        {value: "Once you pay your taxes, you never have to pay them again for the rest of your life.", popup: "The IRS are at your doorstep, redo this question to escape jail"},
-        {value: "Taxes only apply to people who are over 18 years old.", popup: "Regarless of age most states have a sale tax"}
+        {value: "Once you pay your taxes, you never have to pay them again for the rest of your life.", popup: "The IRS are at your doorstep. Redo this question to escape jail."},
+        {value: "Taxes only apply to people who are over 18 years old.", popup: "Regardless of age most states have a sale tax"}
         ],
     answer: [1]
         },      

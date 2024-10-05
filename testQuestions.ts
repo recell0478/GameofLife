@@ -20,7 +20,7 @@ export const QuestionList = [
 
     {
     id: 2,
-    question:"With this new job [name] finally opened up a savings account! If you deposit $1,000 into a savings account freshman year with an annual interest rate of 5% (anual compound) how much will you have after senior year (4 years)?",
+    question:"With this new job finally opened up a savings account! If you deposit $1,000 into a savings account freshman year with an annual interest rate of 5% (anual compound) how much will you have after senior year (4 years)?",
     type: "multiple-choice",
     choices: [
         {value: "1,150.00", popup: "Hey not that little!"},
@@ -34,13 +34,13 @@ export const QuestionList = [
 
 {
     id: 3,
-    question:"Oh no! Your laptop broke. Time to go shopping! You've saved up $2,000 from a couple of months at Dunkin. You have 2 options for the new Mac with an M3 chip pay in full or select a payment plan. What will you choose? ",
+    question:"Oh no! Your laptop broke. Time to go shopping! You've saved up $2,000 from a couple of months at Dunkin. You have 2 options for the new Mac with an M3 chip: pay in full or select a payment plan. Which will you choose? ",
     type: "multiple-choice",
     choices: [
         {value: "Pay in full", popup: "Correct! If you have no other expenses you should pay it off in full. "},
-        {value: "$500 upfront then $100 per month for 18 months, %5 interest", popup: "You would pay $2,375 total"},
-        {value: "12 months at 5%", popup: "Total $2,060.64"},
-        {value: "Biweekly at a 5% interest rate ", popup: "$2,061.36"}
+        {value: "$500 upfront then $100 per month for 18 months, %5 interest", popup: "You would pay $2,375 total, that's an extra $375 out the door!"},
+        {value: "12 months at 5%", popup: "$2,060.64 isn't bad but that 60.64 could have gone 6 coffees :/"},
+        {value: "Biweekly at a 5% interest rate ", popup: "You'd pay $2,061.36, that's not quite the best option"}
         ],
     answer: [0]
         },

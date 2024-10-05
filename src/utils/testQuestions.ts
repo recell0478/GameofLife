@@ -1,7 +1,7 @@
 export const QuestionList = [ 
     {
     id: 1,
-    question:"[Name] It's the start of a new year. You want to do it all: balance work, school, and friends all without crumbling down. You finally got your first job at Dunkin! What do you plan to do with your first check?",
+    question:"You It's the start of a new year. You want to do it all: balance work, school, and friends all without crumbling down. You finally got your first job at Dunkin! What do you plan to do with your first check?",
     type: "multiple-choice",
     choices: [
         {value: "Save all of it of course! That's what I'll do with every check ", popup: "That's great! But no. This isn't sustainable life costs money. You should allocate some income to your wants and needs"},
@@ -59,7 +59,7 @@ export const QuestionList = [
 
 {
     id: 5,
-    question:"Yay! You got a raise now you make $2,400. Time to pay off the dept you owe to Jane. She let you borrow $500 for a new PS5.  If you decide to pay her back $125 each month with %5 interest, how long will it take you to fully repay the debt?",
+    question:"Yay! You got a raise now you make $2,400. Time to pay off the dept you owe to Jerry. She let you borrow $500 for a new PS5.  If you decide to pay her back $125 each month with %5 interest, how long will it take you to fully repay the debt?",
     type: "multiple-choice",
     choices: [
         {value: "2 months", popup: "Record time! But no it wouldn't take only 2 months, even without interest 500/125= 4 months"},

@@ -2,7 +2,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Landing from "./pages/landing";
 import Quiz from "./pages/quiz";
 import Ending from "./pages/ending";
-import Resource from "./pages/resource";
+import Resources from "./pages/resource";
 
 const router = createBrowserRouter([
   {
@@ -19,7 +19,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/resources",
-    element: <Resource />,
+    element: <Resources />,
   },
 ]);
 

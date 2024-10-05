@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom"; // Import Link
 
 const Resource = () => {
   const [details, setDetails] = useState<string | null>(null);
@@ -119,12 +120,21 @@ const Resource = () => {
 
   return (
     <div className="flex flex-col items-center">
-      <h1 className="font-merriweather text-3xl md:text-4xl lg:text-8xl text-center mx-5 md:mx-0 mt-24 mb-[3rem]">
+      <div className="text-left ml-4 mt-32">
+        <Link
+          to="/"
+          className="bg-[#115aad] rounded-lg py-4 px-6 text-[#ffffff] font-poppins font-bold text-2xl" // Increased padding and font size
+        >
+          Play the Game!
+        </Link>
+      </div>
+
+      <h1 className="font-merriweather text-3xl md:text-4xl lg:text-8xl text-center mx-5 md:mx-0 mt-14 mb-[3rem]">
         Resources
       </h1>
 
       <section id="importance" className="text-center my-5 font-poppins mb-12">
-        <h2 className="text-2xl  font-bold">
+        <h2 className="text-2xl font-bold">
           Importance of Financial Education for Students
         </h2>
         <ul className="mt-2">
@@ -137,7 +147,7 @@ const Resource = () => {
       </section>
 
       <section id="statistics" className="text-center my-5v font-poppins mb-9">
-        <h2 className="text-2xl  font-bold">Statistics and Data</h2>
+        <h2 className="text-2xl font-bold">Statistics and Data</h2>
         <ul className="mt-2">
           <div className="font-poppins">
             {statisticsData.map((stat, index) => (

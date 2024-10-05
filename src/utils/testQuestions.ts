@@ -83,7 +83,7 @@ export const QuestionList = [
         {value: "500", popup: "yes"},
         {value: "1,000", popup: "That's a bit high! Remember, you only pay the deductible amount."},
         {value: "1,500", popup: " Not quite! The deductible isn't the subtracted amount"},
-        {value: "2,000", popup: "There wass no change! Account for deductible"}
+        {value: "2,000", popup: "There was no change! Account for deductible"}
         ],
     answer: [0]
         },       

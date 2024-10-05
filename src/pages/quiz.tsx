@@ -49,20 +49,22 @@ const Quiz = () => {
   const currentQuestion = getQuestionById(currentQuestionId);
 
   return (
-    <div>
-      {currentQuestion ? (
-        <>
-          <h2>{currentQuestion.question}</h2>
-          <Quiz_Choices
-            choices={currentQuestion.choices}
-            handleChoiceClick={handleChoiceClick} // Handle click event to submit automatically
-            selectedAnswer={selectedAnswer} // Pass the selected answer to highlight it
-          />
-          {errorMessage && <p style={{ color: 'red' }}>{errorMessage}</p>} {/* Show error message if answer is wrong */}
-        </>
-      ) : (
-        <h2>Loading question...</h2>
-      )}
+    <div className="flex items-center justify-center h-screen">
+      <div className="w-full max-w-xl m-auto text-center">
+        {currentQuestion ? (
+          <>
+            <h2 className="text-center font-merriweather mb-10 mx-5 md:mx-0 text-xl">{currentQuestion.question}</h2>
+            <Quiz_Choices
+              choices={currentQuestion.choices}
+              handleChoiceClick={handleChoiceClick} // Handle click event to submit automatically
+              selectedAnswer={selectedAnswer} // Pass the selected answer to highlight it
+            />
+            {errorMessage && <p style={{ color: 'red' }}>{errorMessage}</p>} {/* Show error message if answer is wrong */}
+          </>
+        ) : (
+          <h2>Loading question...</h2>
+        )}
+      </div>
     </div>
   );
 };

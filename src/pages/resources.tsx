@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const Resource = () => {
+const Resources = () => {
   const [details, setDetails] = useState<string | null>(null);
 
   // Data for financial literacy content
@@ -178,4 +178,4 @@ const Resource = () => {
   );
 };
 
-export default Resource;
+export default Resources;

@@ -53,7 +53,7 @@ export const QuestionList = [
         {value: "Interest calculated only on the principal.", popup: "It's not only the interest; it's like a snowball rolling down a hill – it just keeps getting bigger!"},
         {value: "Interest calculated on the principal and accrued interest.", popup: "Correct! It's interest calculated on the principal and accrued interest. the formula is A=P(1+r/n)^(nt)"},
         {value: "Interest paid only annually.", popup: "No there's different rates of interest available"},
-        {value: "Interest that reduces the principal.", popup: "Compound interest builds up over time, not down. You could say it 'adds' value instead of subtracting"}],"}
+        {value: "Interest that reduces the principal.", popup: "Compound interest builds up over time, not down. You could say it 'adds' value instead of subtracting"}
         ],
     answer: [1]
         },

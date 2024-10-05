@@ -10,7 +10,7 @@ const Landing = () => {
           </h1>
           <div className="flex justify-center mt-8 md:mt-10 lg:mt-12 mb-[30px]">
             <img
-              src="src/assets/life.png" // Ensure the path is correct
+              src="https://firebasestorage.googleapis.com/v0/b/discover-rgv.appspot.com/o/life.png?alt=media&token=87b7af9a-a69a-47b7-8a0a-2584b65f7155" // Ensure the path is correct
               alt="image"
               className="md:w-4/5 lg:w-[50%] h-auto" // Adjusted width to make the image larger
             />

@@ -15,19 +15,13 @@ const Landing = () => {
               className="md:w-4/5 lg:w-full h-auto" // Adjusted width to make the image larger
             />
           </div>
-          <div className="flex items-center justify-center m-auto">
-            <Link
-              to="/quiz"
-              className="bg-[#115aad] rounded-lg py-3 px-8 mx-2 text-[#ffffff] font-poppins font-bold text-center text-lg md:text-xl lg:text-2xl" // Adjusted text size and padding
-            >
-              Take a quiz to learn about financial literacy
-            </Link>
-            <Link
-              to="/resources"
-              className="bg-[#115aad] rounded-lg py-3 px-8 mx-2 text-[#ffffff] font-poppins font-bold text-center text-lg md:text-xl lg:text-2xl" // Adjusted text size and padding
-            >
-              Resources
-            </Link>
+
+          <div className="mx-5 md:mx-0">
+            <div className="max-w-3xl flex flex-col gap-10 md:gap-0 md:flex-row justify-between m-auto">
+              <Link to="/quiz" className="bg-[#115aad] flex rounded-lg py-3 px-8 mx-2 text-[#ffffff] font-poppins font-bold text-center items-center justify-center text-lg md:text-xl lg:text-2xl">Take a quiz to learn about financial literacy</Link>
+              
+              <Link to="/resources" className="bg-[#115aad] flex rounded-lg py-3 px-8 mx-2 text-[#ffffff] font-poppins font-bold text-center items-center justify-center text-lg md:text-xl lg:text-2xl">Resources</Link>
+            </div>
           </div>
         </div>
       </div>

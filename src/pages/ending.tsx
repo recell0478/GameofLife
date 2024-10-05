@@ -20,10 +20,10 @@ const Ending = () => {
           </div>
 
           <div className="mx-5 md:mx-0">
-            <div className="max-w-sm flex flex-col gap-10 md:gap-0 md:flex-row justify-between m-auto">
-              <Link to="/" className="bg-[#115aad] rounded-lg py-3 px-9 text-[#ffffff] font-poppins text-center">Play Again!</Link>
+            <div className="max-w-lg flex flex-col gap-10 md:gap-0 md:flex-row justify-between m-auto">
+              <Link to="/" className="bg-[#115aad] rounded-lg py-3 px-9 text-[#ffffff] font-poppins font-bold text-center text-lg md:text-xl lg:text-2xl">Play Again!</Link>
               
-              <Link to="/resources" className="bg-[#115aad] rounded-lg py-3 px-5 text-[#ffffff] font-poppins text-center">More Resources!</Link>
+              <Link to="/resources" className="bg-[#115aad] rounded-lg py-3 px-5 text-[#ffffff] font-poppins font-bold text-center text-lg md:text-xl lg:text-2xl">More Resources!</Link>
             </div>
           </div>
 

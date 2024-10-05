@@ -22,6 +22,12 @@ const Landing = () => {
             >
               Take a quiz to learn about financial literacy
             </Link>
+            <Link
+              to="/resources"
+              className="bg-[#115aad] rounded-lg py-5 px-10 text-[#ffffff] font-poppins font-bold text-center text-xl md:text-2xl lg:text-3xl" // Adjusted text size
+            >
+              Resources
+            </Link>
           </div>
         </div>
       </div>

@@ -1,7 +1,7 @@
 export const QuestionList = [ 
     {
     id: 1,
-    question:"You It's the start of a new year. You want to do it all: balance work, school, and friends all without crumbling down. You finally got your first job at Dunkin! What do you plan to do with your first check?",
+    question:"It's the start of a new year. You want to do it all: balance work, school, and friends all without crumbling down. You finally got your first job at Dunkin! What do you plan to do with your first check?",
     type: "multiple-choice",
     choices: [
         {value: "Save all of it of course! That's what I'll do with every check ", popup: "That's great! But no. This isn't sustainable life costs money. You should allocate some income to your wants and needs"},

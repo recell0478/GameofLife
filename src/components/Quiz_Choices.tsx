@@ -1,12 +1,22 @@
 import React from "react";
 
+const Quiz_Choices = ({ choices, handleChoiceClick }) => {
+  return (
+    <div>
+      <h3>Choose one:</h3>
+      {choices.map((choice, index) => (
+        <button
+          key={index}
+          onClick={() => handleChoiceClick(choice.popup)}
+          style={{ display: 'block', margin: '10px' }}
+        >
+          {choice.value}
+        </button>
+      ))}
+    </div>
+  );
+};
 
-const Quiz_Choices = (Choices) => {
-    return (
-        <div>
-        <h1>Quiz Choices</h1>
-        </div>
-    );
-    }
+export default Quiz_Choices;
 
 

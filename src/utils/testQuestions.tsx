@@ -1,9 +1,6 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-
-
-
 export const QuestionList = [ 
     {
     id: 1,
@@ -16,8 +13,6 @@ export const QuestionList = [
         {value: "I'll save 70% and spend 30%", popup: "4"}
     ]
     }, 
-
-   
 ]
 
 

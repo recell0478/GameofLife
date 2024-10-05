@@ -68,10 +68,10 @@ export const QuestionList = [
     question:"Yay! You got a raise now you make $2,400. Time to pay off the dept you owe to Jane. She let you borrow $500 for a new PS5.  If you decide to pay her back $125 each month with %5 interest, how long will it take you to fully repay the debt?",
     type: "multiple-choice",
     choices: [
-        {value: "2 months", popup: "1"},
-        {value: "3 months", popup: "2"},
-        {value: "4 months", popup: "3"},
-        {value: "5 months", popup: "4"}
+        {value: "2 months", popup: "Record time! But no it wouldn't take only 2 months, even without interest 500/125= 4 months"},
+        {value: "3 months", popup: "Not quite But no it wouldn't take only 3 months, even without interest 500/125= 4 months"},
+        {value: "4 months", popup: "Close! You for got the 5% interest"},
+        {value: "5 months", popup: "Interest for the first month=P×i=500×0.004167≈2.08 -> = 500+2.08−125=377.08500+2.08−125=377.08                     "}
         ],
     answer: [3]
         },       

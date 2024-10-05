@@ -9,7 +9,7 @@ interface Choice {
 interface QuizChoicesProps {
   choices: Choice[];  // Array of Choice objects
   handleChoiceClick: (choiceIndex: number) => void;  // Function that takes the index of the selected choice
-  selectedAnswer: number | null;  // Track the selected answer to highlight it
+  selectedAnswer?: number | null;  // Track the selected answer to highlight it
 }
 
 const Quiz_Choices: React.FC<QuizChoicesProps> = ({ choices, handleChoiceClick, selectedAnswer }) => {

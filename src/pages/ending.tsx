@@ -1,5 +1,4 @@
 import { Link, useLocation } from "react-router-dom";
-import Point from "../components/Point";  // Import Point component
 
 const Ending = () => {
 const location = useLocation();

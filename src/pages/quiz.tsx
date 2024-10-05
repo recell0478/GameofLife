@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { QuestionList } from "../utils/testQuestions";
 import Quiz_Choices from "../components/Quiz_Choices";
 import { useNavigate } from "react-router-dom";

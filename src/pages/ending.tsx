@@ -1,12 +1,19 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
+import Point from "../components/Point";  // Import Point component
 
 const Ending = () => {
+const location = useLocation();
+  const {score} = location.state || { score:0 };
   return (
     <>
       <div className="flex items-center justify-center h-[90vh]">
         <div>
           <h1 className="font-merriweather font-bold text-xl md:text-3xl lg:text-5xl text-center items-center mx-5 md:mx-0">Congratulations! You made it through </h1>
 
+
+
+   {/* Display the final score using the Point component */}
+   <Point score={score} />
           <div>
             <h1 className="font-merriweather font-bold text-3xl md:text-5xl lg:text-7xl text-center items-center mt-20 mx-5 md:mx-0">Game Of</h1>
           </div>

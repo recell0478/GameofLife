@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import {QuestionList} from "../utils/testQuestions";
-import Quiz_Choices from "../Components/Quiz_Choices";
+import Quiz_Choices from "../components/Quiz_Choices";
 
 
 const Quiz = () => {

@@ -10,17 +10,17 @@ export const QuestionList = [
     question:"[Name] It's the start of a new year. You want to do it all: balance work, school, and friends all without crumbling down. You finally got your first job at Dunkin! What do you plan to do with your first check?",
     type: "multiple-choice",
     choices: [
-        {value: "Save all of it of course! That's what I'll do with every check ", popup: "That's great! But no. This isn't sustainable life costs money"},
+        {value: "Save all of it of course! That's what I'll do with every check ", popup: "That's great! But no. This isn't sustainable life costs money. You should allocate some income to your wants and needs"},
         {value: "Spend it! I'll start saving after this check", popup: "That's fair"},
         {value: "Save some and spend some, I don't want to go all out but I still wokred hard for this check", popup: "Great! Could be a little more organzed tho"},
-        {value: "I'll save 70% and spend 30%", popup: "Ok"}
+        {value: "I'll save 70% and spend 30%", popup: "Ok you cooked here. There are variations to this budgeting technique but the 70-20-10 rule is when you used 70% of your income on living expenses, 20% for savings and debts and 10% for savings"}
     ],
     answer: [0, 1, 2, 3]
     }, 
 
     {
     id: 2,
-    question:"With this new jobs [name] finally opened up a savings account! If you deposit $1,000 into a savings account freshman year with an annual interest rate of 5%, compounded annually, how much will you have after senior year (4 years)?",
+    question:"With this new job [name] finally opened up a savings account! If you deposit $1,000 into a savings account freshman year with an annual interest rate of 5% (anual compound) how much will you have after senior year (4 years)?",
     type: "multiple-choice",
     choices: [
         {value: "1,150.00", popup: "Hey not that little!"},

@@ -120,7 +120,7 @@ const Resource = () => {
 
   return (
     <div className="flex flex-col items-center">
-      <div className="text-left ml-4 mt-32">
+      <div className="text-left mt-32">
         <Link
           to="/"
           className="bg-[#115aad] rounded-lg py-4 px-6 text-[#ffffff] font-poppins font-bold text-2xl" // Increased padding and font size
@@ -133,7 +133,7 @@ const Resource = () => {
         Resources
       </h1>
 
-      <section id="importance" className="text-center my-5 font-poppins mb-12">
+      <section id="importance" className="text-center my-5 font-poppins mb-12 mx-5 md:mx-0">
         <h2 className="text-2xl font-bold">
           Importance of Financial Education for Students
         </h2>
@@ -146,7 +146,7 @@ const Resource = () => {
         </ul>
       </section>
 
-      <section id="statistics" className="text-center my-5v font-poppins mb-9">
+      <section id="statistics" className="text-center my-5v font-poppins mb-9 mx-5 md:mx-0">
         <h2 className="text-2xl font-bold">Statistics and Data</h2>
         <ul className="mt-2">
           <div className="font-poppins">
@@ -159,9 +159,9 @@ const Resource = () => {
         </ul>
       </section>
 
-      <section id="topics" className="text-center my-5 font-bold">
+      <section id="topics" className="text-center my-5 font-bold mx-5 md:mx-0">
         <h2 className="text-2xl mb-9">Topics</h2>
-        <div className="flex items-center justify-center font-poppins">
+        <div className="max-w-10xl flex flex-col gap-10 md:gap-0 md:flex-row justify-between m-auto">
           {Object.keys(topicsData).map((topic, index) => (
             <button
               key={index}
@@ -174,7 +174,7 @@ const Resource = () => {
         </div>
       </section>
 
-      <section id="topic-details" className="text-center my-5">
+      <section id="topic-details" className="text-center mt-5 mb-32 mx-5 md:mx-0">
         <h2 className="text-2xl font-bold">Details</h2>
         <div
           id="details-content"

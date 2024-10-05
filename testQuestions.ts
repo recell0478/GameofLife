@@ -17,8 +17,110 @@ export const QuestionList = [
     ]
     }, 
 
-   
-]
+    {
+    id: 2,
+    question:"",
+    type: "multiple-choice",
+    choices: [
+        {value: "", popup: "1"},
+        {value: "", popup: "2"},
+        {value: "", popup: "3"},
+        {value: "", popup: "4"}
+        ]
+        },
+    
 
+{
+    id: 3,
+    question:"",
+    type: "multiple-choice",
+    choices: [
+        {value: "", popup: "1"},
+        {value: "", popup: "2"},
+        {value: "", popup: "3"},
+        {value: "", popup: "4"}
+        ]
+        },
 
+{
+    id: 4,
+    question:"",
+    type: "multiple-choice",
+    choices: [
+        {value: "", popup: "1"},
+        {value: "", popup: "2"},
+        {value: "", popup: "3"},
+        {value: "", popup: "4"}
+        ]
+        },
+{
+    id: 5,
+    question:"",
+    type: "multiple-choice",
+    choices: [
+        {value: "", popup: "1"},
+        {value: "", popup: "2"},
+        {value: "", popup: "3"},
+        {value: "", popup: "4"}
+        ]
+        },       
+ {
+    id: 6,
+    question:"",
+    type: "multiple-choice",
+    choices: [
+        {value: "", popup: "1"},
+        {value: "", popup: "2"},
+        {value: "", popup: "3"},
+        {value: "", popup: "4"}
+        ]
+        },       
 
+ {
+    id: 7,
+    question:"",
+    type: "multiple-choice",
+    choices: [
+        {value: "", popup: "1"},
+        {value: "", popup: "2"},
+        {value: "", popup: "3"},
+        {value: "", popup: "4"}
+        ]
+        },   
+
+ {
+    id: 8,
+    question:"",
+    type: "multiple-choice",
+    choices: [
+        {value: "", popup: "1"},
+        {value: "", popup: "2"},
+        {value: "", popup: "3"},
+        {value: "", popup: "4"}
+        ]
+        },   
+
+ {
+    id: 9,
+    question:"",
+    type: "multiple-choice",
+    choices: [
+        {value: "", popup: "1"},
+        {value: "", popup: "2"},
+        {value: "", popup: "3"},
+        {value: "", popup: "4"}
+        ]
+        },      
+ {
+    id: 10,
+    question:"",
+    type: "multiple-choice",
+    choices: [
+        {value: "", popup: "1"},
+        {value: "", popup: "2"},
+        {value: "", popup: "3"},
+        {value: "", popup: "4"}
+        ]
+        },   
+
+    ]        

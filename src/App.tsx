@@ -1,13 +1,29 @@
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Landing from "./pages/landing";
+import Quiz from "./pages/quiz";
+import Ending from "./pages/ending";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Landing />,
+  },
+  {
+    path: "/quiz",
+    element: <Quiz />,
+  },
+  {
+    path: "/ending",
+    element: <Ending />,
+  },
+]);
 
 function App() {
 
   return (
-    <>
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
-      <p>This is our app</p>
-    </>
+    <div className="App">
+      <RouterProvider router={router} />
+    </div>
   )
 }
 

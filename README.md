@@ -3,6 +3,7 @@
 ## Overview
 The **Game of Life** is an engaging educational project designed to enhance financial literacy among users. Through a series of interactive questions and quizzes, users can test their knowledge of personal finance, budgeting, saving, investing, and debt management. By answering questions correctly, users can earn points, encouraging them to learn while having fun!
 
+<<<<<<< Updated upstream
 ## Features
 - **Interactive Quizzes:** Users can answer a variety of questions related to financial literacy.
 - **Points System:** Earn points for each correct answer, motivating users to improve their knowledge and understanding of financial concepts.
@@ -28,6 +29,8 @@ To get started with the **Game of Life** project, follow the steps below:
    cd game-of-life
 
 
+=======
+>>>>>>> Stashed changes
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -48,11 +51,11 @@ export default tseslint.config({
   languageOptions: {
     // other options...
     parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
+      project: ["./tsconfig.node.json", "./tsconfig.app.json"],
       tsconfigRootDir: import.meta.dirname,
     },
   },
-})
+});
 ```
 
 - Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
@@ -61,11 +64,11 @@ export default tseslint.config({
 
 ```js
 // eslint.config.js
-import react from 'eslint-plugin-react'
+import react from "eslint-plugin-react";
 
 export default tseslint.config({
   // Set the react version
-  settings: { react: { version: '18.3' } },
+  settings: { react: { version: "18.3" } },
   plugins: {
     // Add the react plugin
     react,
@@ -74,7 +77,7 @@ export default tseslint.config({
     // other rules...
     // Enable its recommended rules
     ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
+    ...react.configs["jsx-runtime"].rules,
   },
-})
+});
 ```

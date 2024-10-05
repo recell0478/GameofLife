@@ -18,13 +18,13 @@ const Landing = () => {
           <div className="flex items-center justify-center m-auto">
             <Link
               to="/quiz"
-              className="bg-[#115aad] rounded-lg py-5 px-10 mx-5 md:mx-0 text-[#ffffff] font-poppins font-bold text-center text-xl md:text-2xl lg:text-3xl" // Adjusted text size
+              className="bg-[#115aad] rounded-lg py-3 px-8 mx-2 text-[#ffffff] font-poppins font-bold text-center text-lg md:text-xl lg:text-2xl" // Adjusted text size and padding
             >
               Take a quiz to learn about financial literacy
             </Link>
             <Link
               to="/resources"
-              className="bg-[#115aad] rounded-lg py-5 px-10 text-[#ffffff] font-poppins font-bold text-center text-xl md:text-2xl lg:text-3xl" // Adjusted text size
+              className="bg-[#115aad] rounded-lg py-3 px-8 mx-2 text-[#ffffff] font-poppins font-bold text-center text-lg md:text-xl lg:text-2xl" // Adjusted text size and padding
             >
               Resources
             </Link>

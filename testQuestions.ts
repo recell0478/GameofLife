@@ -14,7 +14,8 @@ export const QuestionList = [
         {value: "Spend it! I'll start saving after this check", popup: "That's fair"},
         {value: "Save some and spend some, I don't want to go all out but I still wokred hard for this check", popup: "Great! Could be a little more organzed tho"},
         {value: "I'll save 70% and spend 30%", popup: "Ok"}
-    ]
+    ],
+    answer: [0, 1, 2, 3]
     }, 
 
     {
@@ -26,7 +27,8 @@ export const QuestionList = [
         {value: "1,157.63", popup: "You're right!"},
         {value: "1,200.00", popup: "Too much"},
         {value: "1,500.00", popup: "Sadly not this much"}
-        ]
+        ],
+      answer: [1]
         },
     
 
@@ -39,7 +41,8 @@ export const QuestionList = [
         {value: "$500 upfront then $100 per month for 18 months, %5 interest", popup: "You would pay $2,375 total"},
         {value: "12 months at 5%", popup: "Total $2,060.64"},
         {value: "Biweekly at a 5% interest rate ", popup: "$2,061.36"}
-        ]
+        ],
+    answer: [0]
         },
 
 {
@@ -51,7 +54,8 @@ export const QuestionList = [
         {value: "Interest calculated on the principal and accrued interest.", popup: "Correct! It's nterest calculated on the principal and accrued interest."},
         {value: "Interest paid only annually.", popup: "3"},
         {value: "Interest that reduces the principal.", popup: "4"}
-        ]
+        ],
+    answer: [1]
         },
 
 
@@ -68,7 +72,8 @@ export const QuestionList = [
         {value: "3 months", popup: "2"},
         {value: "4 months", popup: "3"},
         {value: "5 months", popup: "4"}
-        ]
+        ],
+    answer: [3]
         },       
  {
     id: 6,
@@ -79,7 +84,8 @@ export const QuestionList = [
         {value: "1,000", popup: "2"},
         {value: "1,500", popup: "3"},
         {value: "2,000", popup: "4"}
-        ]
+        ],
+    answer: [0]
         },       
 
  {
@@ -91,7 +97,8 @@ export const QuestionList = [
         {value: "It will take approximately 10 months and you will pay $45 in interest.", popup: "2"},
         {value: "It will take approximately 12 months and you will pay $60 in interest.", popup: "yes"},
         {value: "It will take approximately 18 months and you will pay $80 in interest.", popup: "4"}
-        ]
+        ],
+    answer: [2]
         },   
 
  {
@@ -103,7 +110,8 @@ export const QuestionList = [
         {value: "Continue spending without changing your budget, it will help the economy and stop inflation", popup: "no"},
         {value: "Look for discounts, coupons, or sales to help save money on essential purchases.", popup: "yes"},
         {value: " Consider finding a part-time job or side gig to supplement your income.", popup: "yes"}
-        ]
+        ],
+    answer: [0,2,3]
         },   
 
  {
@@ -115,7 +123,8 @@ export const QuestionList = [
         {value: " Everyone pays taxes, but the amount you pay depends on how much money you earn.", popup: "2"},
         {value: "Once you pay your taxes, you never have to pay them again for the rest of your life.", popup: "3"},
         {value: "Taxes only apply to people who are over 18 years old.", popup: "4"}
-        ]
+        ],
+    answer: [1]
         },      
  {
     id: 10,
@@ -126,7 +135,8 @@ export const QuestionList = [
         {value: "The interest rate on the loan and how it will affect your total repayment amount.", popup: "2"},
         {value: "Whether you will need to work part-time during school to help manage living expenses.", popup: "3"},
         {value: "The possibility of receiving scholarships or grants that do not need to be repaid", popup: "4"}
-        ]
+        ],
+    answer: [0,1,2,3]
         },   
 
     ]        

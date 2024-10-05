@@ -42,7 +42,7 @@ const Quiz = () => {
           setSelectedAnswer(null); // Reset the selected answer
         } else {
           // If no more questions, navigate to the "/ending" route
-          navigate("/ending");
+          navigate("/ending",  { state: { score } });
         }
       } else {
         // If the answer is wrong, show the error message

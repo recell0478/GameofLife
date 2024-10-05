@@ -34,10 +34,6 @@ To get started with the **Game of Life** project, follow the steps below:
    cd game-of-life
    ```
 
-=======
-
-> > > > > > > Stashed changes
-
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

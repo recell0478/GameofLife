@@ -1,8 +1,8 @@
-const Resource = () => {
+const Resources = () => {
   return (
     <>
     </>
   );
 };
 
-export default Resource;
+export default Resources;

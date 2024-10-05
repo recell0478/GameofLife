@@ -119,15 +119,14 @@ const Resource = () => {
   };
 
   return (
-    <div className="flex flex-col items-center">
-      <div className="text-left mt-32">
+    <div className="flex flex-col items-center justify-center">
+
         <Link
           to="/"
-          className="bg-[#115aad] rounded-lg py-4 px-6 text-[#ffffff] font-poppins font-bold text-2xl" // Increased padding and font size
+          className="bg-[#115aad] rounded-lg py-4 px-6 mt-32 text-[#ffffff] font-poppins font-bold text-2xl transform transition-transform duration-200 hover:scale-105 cursor-pointer" // Increased padding and font size
         >
           Play the Game!
         </Link>
-      </div>
 
       <h1 className="font-merriweather text-3xl md:text-4xl lg:text-8xl text-center mx-5 md:mx-0 mt-14 mb-[3rem]">
         Resources
@@ -165,7 +164,7 @@ const Resource = () => {
           {Object.keys(topicsData).map((topic, index) => (
             <button
               key={index}
-              className="mt-2 bg-[#115aad] text-white p-2 rounded mx-2" // Updated button color and added horizontal margin
+              className="mt-2 bg-[#115aad] text-white p-2 rounded mx-2 transform transition-transform duration-200 hover:scale-105 cursor-pointer" // Updated button color and added horizontal margin
               onClick={() => showDetails(topic)}
             >
               {topicsData[topic].title}

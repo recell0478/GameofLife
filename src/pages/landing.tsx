@@ -17,10 +17,10 @@ const Landing = () => {
           </div>
 
           <div className="mx-5 md:mx-0">
-            <div className="max-w-3xl flex flex-col gap-10 md:gap-0 md:flex-row justify-between m-auto">
-              <Link to="/quiz" className="bg-[#115aad] flex rounded-lg py-3 px-8 mx-2 text-[#ffffff] font-poppins font-bold text-center items-center justify-center text-lg md:text-xl lg:text-2xl">Take a quiz to learn about financial literacy</Link>
+            <div className="max-w-4xl flex flex-col gap-10 md:gap-0 md:flex-row justify-between m-auto">
+              <Link to="/quiz" className="bg-[#115aad] flex rounded-lg py-3 px-8 mx-4 text-[#ffffff] font-poppins font-bold text-center items-center justify-center text-lg md:text-xl lg:text-2xl transform transition-transform duration-200 hover:scale-105 cursor-pointer">Take a quiz to learn about financial literacy</Link>
               
-              <Link to="/resources" className="bg-[#115aad] flex rounded-lg py-3 px-8 mx-2 text-[#ffffff] font-poppins font-bold text-center items-center justify-center text-lg md:text-xl lg:text-2xl">Resources</Link>
+              <Link to="/resources" className="bg-[#115aad] flex rounded-lg py-3 px-8 mx-4 text-[#ffffff] font-poppins font-bold text-center items-center justify-center text-lg md:text-xl lg:text-2xl transform transition-transform duration-200 hover:scale-105 cursor-pointer">Resources</Link>
             </div>
           </div>
         </div>

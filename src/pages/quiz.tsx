@@ -53,13 +53,13 @@ const Quiz = () => {
       <div className="w-full max-w-xl m-auto text-center">
         {currentQuestion ? (
           <>
-            <h2 className="text-center font-merriweather mb-10 mx-5 md:mx-0 text-xl">{currentQuestion.question}</h2>
+            <h2 className="text-center font-merriweather mb-10 mx-5 md:mx-0 text-lg">{currentQuestion.question}</h2>
             <Quiz_Choices
               choices={currentQuestion.choices}
               handleChoiceClick={handleChoiceClick} // Handle click event to submit automatically
               selectedAnswer={selectedAnswer} // Pass the selected answer to highlight it
             />
-            {errorMessage && <p style={{ color: 'red' }}>{errorMessage}</p>} {/* Show error message if answer is wrong */}
+            {errorMessage && <p className="text-red-600 font-poppins mt-5 text-xl">{errorMessage}</p>} {/* Show error message if answer is wrong */}
           </>
         ) : (
           <h2>Loading question...</h2>

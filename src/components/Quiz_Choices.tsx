@@ -24,7 +24,8 @@ const Quiz_Choices: React.FC<QuizChoicesProps> = ({ choices, handleChoiceClick, 
           onClick={() => handleChoiceClick(index)}  // Pass the index of the clicked choice to the parent
           style={{ backgroundColor: colors[index % colors.length] }}
           className="
-          w-full font-poppins 
+          w-full 
+          font-poppins 
           flex 
           items-center 
           justify-center 

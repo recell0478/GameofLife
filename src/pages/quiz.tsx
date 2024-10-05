@@ -9,6 +9,8 @@ const Quiz = () => {
   const [score, setScore] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState<number | null>(null);
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
+  const [earnPoints, setEarnPoints] = useState(true);  // Whether user can earn points
+
 
   const navigate = useNavigate();
 
@@ -28,8 +30,11 @@ const Quiz = () => {
       const isCorrect = currentQuestion.answer.includes(choiceIndex); // Check if the answer is correct
 
       if (isCorrect) {
-        // If the answer is correct, increment score and move to next question
-        setScore(score + 4); // Adjust points based on your scoring system
+        if (earnPoints) {
+          setScore(score + 4);  // Add points only if earnPoints is true
+        }
+        setEarnPoints(true);
+
         const nextQuestionId = currentQuestionId + 1;
 
         if (nextQuestionId <= QuestionList.length) {
@@ -42,6 +47,7 @@ const Quiz = () => {
       } else {
         // If the answer is wrong, show the error message
         setErrorMessage(currentQuestion.choices[choiceIndex].popup); // Show the popup message from the choice
+        setEarnPoints(false);
       }
     }
   };

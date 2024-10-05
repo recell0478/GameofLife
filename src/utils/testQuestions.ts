@@ -14,7 +14,7 @@ export const QuestionList = [
 
     {
     id: 2,
-    question:"With this new job finally opened up a savings account! If you deposit $1,000 into a savings account freshman year with an annual interest rate of 5% (anual compound) how much will you have after senior year (4 years)?",
+    question:"With this new job you finally opened up a savings account! If you deposit $1,000 into a savings account freshman year with an annual interest rate of 5% (anual compound) how much will you have after senior year (4 years)?",
     type: "multiple-choice",
     choices: [
         {value: "1,150.00", popup: "Hey not that little!"},

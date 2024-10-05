@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { QuestionList } from "../utils/testQuestions";
 import Quiz_Choices from "../components/Quiz_Choices";
 import { useNavigate } from "react-router-dom";
+import Point from "../components/Point";  // Import Point component
 
 const Quiz = () => {
   const [currentQuestionId, setCurrentQuestionId] = useState(1);
@@ -51,6 +52,8 @@ const Quiz = () => {
   return (
     <div className="flex items-center justify-center h-screen">
       <div className="w-full max-w-xl m-auto text-center">
+         {/* Display the current points */}
+      <Point score={score} /> 
         {currentQuestion ? (
           <>
             <h2 className="text-center font-merriweather mb-10 mx-5 md:mx-0 text-lg">{currentQuestion.question}</h2>

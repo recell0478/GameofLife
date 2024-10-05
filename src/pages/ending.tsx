@@ -10,12 +10,11 @@ const location = useLocation();
         <div>
           <h1 className="font-merriweather font-bold text-xl md:text-3xl lg:text-5xl text-center items-center mx-5 md:mx-0">Congratulations! You made it through </h1>
 
-
-
-   {/* Display the final score using the Point component */}
-   <Point score={score} />
+          <div className="text-center mt-10">
+            <p className="font-poppins font-bold text-5xl">Points: {score}/40</p>
+          </div>
           <div>
-            <h1 className="font-merriweather font-bold text-3xl md:text-5xl lg:text-7xl text-center items-center mt-20 mx-5 md:mx-0">Game Of</h1>
+            <h1 className="font-merriweather font-bold text-3xl md:text-5xl lg:text-7xl text-center items-center mt-10 mx-5 md:mx-0">Game Of</h1>
           </div>
 
           <div className="flex items-center justify-center">

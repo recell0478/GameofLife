@@ -12,7 +12,7 @@ interface QuizChoicesProps {
   selectedAnswer?: number | null;  // Track the selected answer to highlight it
 }
 
-const Quiz_Choices: React.FC<QuizChoicesProps> = ({ choices, handleChoiceClick, selectedAnswer }) => {
+const Quiz_Choices: React.FC<QuizChoicesProps> = ({ choices, handleChoiceClick }) => {
 
   const colors = ["#DE0884", "#2397D4", "#71AB47", "#FEEA00"];
 

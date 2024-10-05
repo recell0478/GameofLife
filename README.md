@@ -1,5 +1,5 @@
 # Game of Life
-![Alt text]("src/assets/life.png"_or_path_to_image)
+![Alt text]("src/assets/life.png")
 ## Overview
 The **Game of Life** is an engaging educational project designed to enhance financial literacy among users. Through a series of interactive questions and quizzes, users can test their knowledge of personal finance, budgeting, saving, investing, and debt management. By answering questions correctly, users can earn points, encouraging them to learn while having fun!
 

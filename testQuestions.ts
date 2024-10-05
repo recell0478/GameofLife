@@ -47,13 +47,13 @@ export const QuestionList = [
 
 {
     id: 4,
-    question:"Based on the last question, what is compound interest(principle is your based payment)",
+    question:"Based on the last question, what is compound interest (principle is your based payment)",
     type: "multiple-choice",
     choices: [
-        {value: "Interest calculated only on the principal.", popup: "1"},
-        {value: "Interest calculated on the principal and accrued interest.", popup: "Correct! It's nterest calculated on the principal and accrued interest."},
-        {value: "Interest paid only annually.", popup: "3"},
-        {value: "Interest that reduces the principal.", popup: "4"}
+        {value: "Interest calculated only on the principal.", popup: "It's not only the interest; it's like a snowball rolling down a hill – it just keeps getting bigger!"},
+        {value: "Interest calculated on the principal and accrued interest.", popup: "Correct! It's interest calculated on the principal and accrued interest. the formula is A=P(1+r/n)^(nt)"},
+        {value: "Interest paid only annually.", popup: "No there's different rates of interest available"},
+        {value: "Interest that reduces the principal.", popup: "Compound interest builds up over time, not down. You could say it 'adds' value instead of subtracting"}],"}
         ],
     answer: [1]
         },
@@ -65,7 +65,7 @@ export const QuestionList = [
 
 {
     id: 5,
-    question:"Yay! You got a raise now you make $2,400. Time to pay off the dept you owe to Jane. She let you borrow $500 for a new PS5.  If you decide to pay her back $125 each month, how long will it take you to fully repay the debt?",
+    question:"Yay! You got a raise now you make $2,400. Time to pay off the dept you owe to Jane. She let you borrow $500 for a new PS5.  If you decide to pay her back $125 each month with %5 interest, how long will it take you to fully repay the debt?",
     type: "multiple-choice",
     choices: [
         {value: "2 months", popup: "1"},

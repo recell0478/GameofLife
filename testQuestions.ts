@@ -12,8 +12,8 @@ export const QuestionList = [
     choices: [
         {value: "Save all of it of course! That's what I'll do with every check ", popup: "That's great! But no. This isn't sustainable life costs money"},
         {value: "Spend it! I'll start saving after this check", popup: "That's fair"},
-        {value: "Save some and spend some, I don't want to go all out but I still wokred hard for this check", popup: "3"},
-        {value: "I'll save 70% and spend 30%", popup: "4"}
+        {value: "Save some and spend some, I don't want to go all out but I still wokred hard for this check", popup: "Great! Could be a little more organzed tho"},
+        {value: "I'll save 70% and spend 30%", popup: "Ok"}
     ]
     }, 
 

@@ -81,9 +81,9 @@ export const QuestionList = [
     type: "multiple-choice",
     choices: [
         {value: "500", popup: "yes"},
-        {value: "1,000", popup: "2"},
-        {value: "1,500", popup: "3"},
-        {value: "2,000", popup: "4"}
+        {value: "1,000", popup: "That's a bit high! Remember, you only pay the deductible amount."},
+        {value: "1,500", popup: " Not quite! The deductible isn't the subtracted amount"},
+        {value: "2,000", popup: "There wass no change! Account for deductible"}
         ],
     answer: [0]
         },       
@@ -93,10 +93,10 @@ export const QuestionList = [
     question:"Wow you've been managing life well!Let's open a credit card. credit card with a $1,000 limit and a 20% annual percentage rate (APR). You decide to use the card to purchase textbooks for the semester, which total $600. You plan to pay the minimum balance each month, which is typically 3% of the outstanding balance. If you make only the minimum payment, how long will it take you to pay off the $600 balance, and how much interest will you pay over that period?",
     type: "multiple-choice",
     choices: [
-        {value: "It will take approximately 6 months and you will pay $30 in interest", popup: "1"},
-        {value: "It will take approximately 10 months and you will pay $45 in interest.", popup: "2"},
-        {value: "It will take approximately 12 months and you will pay $60 in interest.", popup: "yes"},
-        {value: "It will take approximately 18 months and you will pay $80 in interest.", popup: "4"}
+        {value: "It will take approximately 6 months and you will pay $30 in interest", popup: "Not quite try again"},
+        {value: "It will take approximately 10 months and you will pay $45 in interest.", popup: "Almost there give it another go"},
+        {value: "It will take approximately 12 months and you will pay $60 in interest.", popup: "Correct!"},
+        {value: "It will take approximately 18 months and you will pay $80 in interest.", popup: "Choose another option! The correct one this time "}
         ],
     answer: [2]
         },   
@@ -106,23 +106,23 @@ export const QuestionList = [
     question:"That last question was a lot! Let's go with something simple. You’ve been budgeting carefully, but you've noticed prices have gone up. What can you do?",
     type: "multiple-choice",
     choices: [
-        {value: "Review and prioritize your monthly expenses to identify areas where you can cut back.", popup: "yes"},
-        {value: "Continue spending without changing your budget, it will help the economy and stop inflation", popup: "no"},
-        {value: "Look for discounts, coupons, or sales to help save money on essential purchases.", popup: "yes"},
-        {value: " Consider finding a part-time job or side gig to supplement your income.", popup: "yes"}
+        {value: "Review and prioritize your monthly expenses to identify areas where you can cut back.", popup: "yes!"},
+        {value: "Continue spending without changing your budget, it will help the economy and stop inflation", popup: "Sadly this is not how inflation works . Spending without consideration can actually worsen the problem!"},
+        {value: "Look for discounts, coupons, or sales to help save money on essential purchases.", popup: "yes!"},
+        {value: " Consider finding a part-time job or side gig to supplement your income.", popup: "Difficult in this market but definitly an option"}
         ],
     answer: [0,2,3]
         },   
 
  {
     id: 9,
-    question:"While we all pay sales tax this will be your first time with a tax return. Which of the following is true ",
+    question:"While we all pay sales tax this will be your first time with a tax return with your Dunkins income. Which of the following is true ",
     type: "multiple-choice",
     choices: [
-        {value: "Taxes are a type of voluntary fee that you can choose to pay or ignore.", popup: "1"},
-        {value: " Everyone pays taxes, but the amount you pay depends on how much money you earn.", popup: "2"},
-        {value: "Once you pay your taxes, you never have to pay them again for the rest of your life.", popup: "3"},
-        {value: "Taxes only apply to people who are over 18 years old.", popup: "4"}
+        {value: "Taxes are a type of voluntary fee that you can choose to pay or ignore.", popup: "Voluntary? ... "},
+        {value: " Everyone pays taxes, but the amount you pay depends on how much money you earn.", popup: "Yes! We all pay taxes!!!"},
+        {value: "Once you pay your taxes, you never have to pay them again for the rest of your life.", popup: "The IRS are at your doorstep, redo this question to escape jail"},
+        {value: "Taxes only apply to people who are over 18 years old.", popup: "Regarless of age most states have a sale tax"}
         ],
     answer: [1]
         },      
@@ -131,10 +131,10 @@ export const QuestionList = [
     question:"Almost there! It's time to go to college to your dream school.  You’ve received an offer for a student loan of $10,000 to help cover tuition and living expenses. However, now that you know loans must be paid back with interest after you graduate. What factors should you consider before accepting the student loan? ",
     type: "multiple-choice",
     choices: [
-        {value: " The total amount of the loan and how it fits into your overall budget for college expenses.", popup: "1"},
-        {value: "The interest rate on the loan and how it will affect your total repayment amount.", popup: "2"},
-        {value: "Whether you will need to work part-time during school to help manage living expenses.", popup: "3"},
-        {value: "The possibility of receiving scholarships or grants that do not need to be repaid", popup: "4"}
+        {value: " The total amount of the loan and how it fits into your overall budget for college expenses.", popup: "Yes you're on your way!"},
+        {value: "The interest rate on the loan and how it will affect your total repayment amount.", popup: "Yes you're on your way!"},
+        {value: "Whether you will need to work part-time during school to help manage living expenses.", popup: "Yes you're on your way!"},
+        {value: "The possibility of receiving scholarships or grants that do not need to be repaid", popup: "Yes you're on your way!"}
         ],
     answer: [0,1,2,3]
         },   

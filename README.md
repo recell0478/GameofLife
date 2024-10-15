@@ -25,7 +25,9 @@ The **Game of Life** is an engaging educational project designed to enhance fina
 - **React Router**: For navigation between different components and pages.
 
 ## Getting Started
-
+You can either use this link
+https://gameof-life-9dec.vercel.app/
+ OR
 To get started with the **Game of Life** project, follow the steps below:
 
 1. **Clone the Repository:**
